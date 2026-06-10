@@ -56,3 +56,49 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 📚 Blade Component Library Dokumentasi
+
+Kumpulan komponen Blade kustom yang dirancang untuk mempercepat proses pengembangan antarmuka menggunakan **Bootstrap 5**. Semua komponen bersifat *reusable* dan mendukung injeksi kelas utilitas tambahan melalui atribut bawaan Laravel.
+
+---
+
+## 1. Komponen Alert (`<x-alert>`)
+Digunakan untuk menampilkan pesan informasi atau notifikasi umpan balik kepada pengguna.
+
+### Properti (Props)
+* `type`: Menentukan warna alert (`success`, `danger`, `warning`, `info`). Default: `info`.
+* `dismissible`: Menerima nilai boolean (`true`/`false`) untuk memunculkan tombol silang (close). Default: `false`.
+
+### Contoh Penggunaan
+```html
+<x-alert type="success">
+    Data mahasiswa berhasil disimpan ke database!
+</x-alert>
+
+<x-alert type="danger" dismissible="true">
+    <strong>Gagal!</strong> Format email yang Anda masukkan tidak valid.
+</x-alert>
+
+# 📚 Blade Component Library Dokumentasi
+
+Kumpulan komponen Blade kustom yang dirancang untuk mempercepat proses pengembangan antarmuka menggunakan **Bootstrap 5**. Semua komponen bersifat *reusable* dan mendukung injeksi kelas utilitas tambahan melalui atribut bawaan Laravel.
+
+---
+
+## 1. Komponen Alert (`<x-alert>`)
+Digunakan untuk menampilkan pesan informasi atau notifikasi umpan balik kepada pengguna.
+
+### Properti (Props)
+* `type`: Menentukan warna alert (`success`, `danger`, `warning`, `info`). Default: `info`.
+* `dismissible`: Menerima nilai boolean (`true`/`false`) untuk memunculkan tombol silang (close). Default: `false`.
+
+### Contoh Penggunaan
+```html
+<x-alert type="success">
+    Data mahasiswa berhasil disimpan ke database!
+</x-alert>
+
+<x-alert type="danger" dismissible="true">
+    <strong>Gagal!</strong> Format email yang Anda masukkan tidak valid.
+</x-alert>
